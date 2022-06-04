@@ -1,0 +1,27 @@
+.container {
+	.row {
+		.col-md-4 {
+			.gift-box {
+				margin-top: 100px;
+
+				.btn-box {
+					margin-bottom: 20px;
+					
+					button {
+						width: 100%;
+						&:disabled {
+							cursor: not-allowed;
+						}
+					}
+				}
+
+				.gift-item {
+					filter: blur(20px);
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}

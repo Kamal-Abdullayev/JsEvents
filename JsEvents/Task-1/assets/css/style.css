@@ -1,0 +1,24 @@
+.container .row .col-md-4 .gift-box {
+  margin-top: 100px;
+}
+
+.container .row .col-md-4 .gift-box .btn-box {
+  margin-bottom: 20px;
+}
+
+.container .row .col-md-4 .gift-box .btn-box button {
+  width: 100%;
+}
+
+.container .row .col-md-4 .gift-box .btn-box button:disabled {
+  cursor: not-allowed;
+}
+
+.container .row .col-md-4 .gift-box .gift-item {
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+}
+
+.container .row .col-md-4 .gift-box .gift-item img {
+  width: 100%;
+}

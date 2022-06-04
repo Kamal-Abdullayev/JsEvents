@@ -1,0 +1,25 @@
+.header {
+    .icons {
+        display: flex;
+
+        .first-icon {
+            .bar-btn {
+                border: none;
+                background-color: #fff;
+            }
+        }
+
+        .second-icon {
+            visibility: hidden;
+            margin-left: 8%;
+            .bar-btn {
+                border: none;
+                background-color: #fff;
+            }
+        }
+    }
+    .content{
+        visibility: hidden;
+        padding: 0 90% 0 2%;
+    }
+}

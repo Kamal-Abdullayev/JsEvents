@@ -1,0 +1,29 @@
+.card-wrapper .card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-wrapper .card-header .card-title {
+  padding: 8px 8px 0 8px;
+}
+
+.card-wrapper .card-header .card-title:hover {
+  border: 1px solid #dbdada;
+  border-bottom: none;
+}
+
+.card-wrapper .card-header .card-title button {
+  border: none;
+  background-color: #fff;
+  color: blue;
+}
+
+.card-wrapper .card-header .card-title button:hover {
+  color: black;
+}
+
+.card-wrapper .card-content {
+  display: none;
+  padding: 0 60% 0 1%;
+}
